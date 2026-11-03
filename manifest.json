@@ -1,0 +1,26 @@
+{
+  "id": "bravebrand.blaze-review",
+  "name": "Blaze Review",
+  "apiVersion": 1,
+  "description": "Review Blaze's HyperFrames edits live in HyperFrames Studio inside Buzz, before anything is rendered, on a review copy of each project; send timecoded notes or the go-ahead to Blaze.",
+  "discovery": {
+    "category": "productivity",
+    "tags": [
+      "Video",
+      "BraveBrand",
+      "Blaze"
+    ]
+  },
+  "host": {
+    "processes": [
+      {
+        "id": "helper",
+        "program": "python3",
+        "args": [
+          "-I",
+          "-c"
+        ]
+      }
+    ]
+  }
+}
